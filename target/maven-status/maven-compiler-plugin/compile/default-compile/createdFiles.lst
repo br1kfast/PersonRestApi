@@ -1,0 +1,7 @@
+com\distributedsystem\PersonRestApi\service\PersonService.class
+com\distributedsystem\PersonRestApi\entity\Person.class
+com\distributedsystem\PersonRestApi\repository\PersonRepository.class
+com\distributedsystem\PersonRestApi\service\PersonServiceImpl.class
+com\distributedsystem\PersonRestApi\web\PersonController.class
+com\distributedsystem\PersonRestApi\PersonRestApiApplication.class
+com\distributedsystem\PersonRestApi\service\CommonResult.class
