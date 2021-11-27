@@ -20,7 +20,7 @@
 									"",
 									"    const request = JSON.parse(pm.request.body)",
 									"    pm.collectionVariables.set(\"name\", request.name)",
-									"    pm.collectionVariables.set(\"age\", request.age)",
+									
 									"",
 									"    const location = pm.response.headers.get(\"Location\")",
 									"    pm.expect(location).to.not.empty;",
@@ -72,7 +72,7 @@
 									"    const response = pm.response.json();",
 									"    pm.expect(response.id).to.eq(pm.collectionVariables.get('personId'))",
 									"    pm.expect(response.name).to.eq(pm.collectionVariables.get('name'))",
-									"    pm.expect(response.age).to.eq(pm.collectionVariables.get('age'))",
+									
 									"})"
 								],
 								"type": "text/javascript"
@@ -123,7 +123,7 @@
 									"    pm.expect(item).to.be.not.undefined",
 									"    pm.expect(item.id).to.eq(personId)",
 									"    pm.expect(item.name).to.eq(pm.collectionVariables.get('name'))",
-									"    pm.expect(item.age).to.eq(pm.collectionVariables.get('age'))",
+									
 									"})"
 								],
 								"type": "text/javascript"
@@ -162,7 +162,7 @@
 									"    const response = pm.response.json();",
 									"    pm.expect(response.id).to.eq(pm.collectionVariables.get('personId'))",
 									"    pm.expect(response.name).to.eq(request.name)",
-									"    pm.expect(response.age).to.eq(pm.collectionVariables.get('age'))",
+									
 									"})"
 								],
 								"type": "text/javascript"
